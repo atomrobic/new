@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>iHUB24 - Your Local World, Seamlessly Connected</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style type="text/css">
+  .star-rating span {
+    color: #14B8A6;
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .star-rating .empty {
+    color: #CBD5E1;
+  }
+  .dark .star-rating .empty {
+    color: #475569;
+  }
+</style>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          primary: "#14B8A6",
+          "background-light": "#FFFFFF",
+          "background-dark": "#18181B",
+          "surface-light": "#F0FDF4",
+          "surface-dark": "#27272A",
+          "text-primary-light": "#18181B",
+          "text-primary-dark": "#F4F4F5",
+          "text-secondary-light": "#52525B",
+          "text-secondary-dark": "#A1A1AA",
+          "border-light": "#E4E4E7",
+          "border-dark": "#3F3F46",
+        },
+        fontFamily: {
+          display: ["Poppins", "sans-serif"],
+        },
+        borderRadius: {
+          DEFAULT: "0.75rem",
+          lg: "1rem",
+        },
+      },
+    },
+  };
+</script>
+<style>
+  body {
+    min-height: max(884px, 100dvh);
+  }
+</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-primary-light dark:text-text-primary-dark">
+<div class="max-w-md mx-auto">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center justify-between p-4 border-b border-border-light dark:border-border-dark">
+<div class="flex items-center gap-2">
+<div class="bg-primary p-1.5 rounded-md">
+<span class="material-symbols-outlined text-white text-2xl">chat_bubble</span>
+</div>
+<span class="font-bold text-xl tracking-tight">iHUB24</span>
+</div>
+<button class="text-text-primary-light dark:text-text-primary-dark">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+
+<main>
+<section class="relative text-white text-center py-20 px-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://storage.googleapis.com/pai-images/f773663ab6c5436696d7494443652c78.jpeg');">
+<h1 class="text-4xl font-bold leading-tight mb-4">iHUB: Your Local World, Seamlessly Connected.</h1>
+<p class="mb-8 text-white/90">Experience the power of a vibrant local community right at your fingertips. Discover exciting events, exclusive deals, and connect with people who share your interests, all through one unified platform.</p>
+<a class="bg-primary text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-teal-600 transition-colors" href="#">Start Connecting Now</a>
+</section>
+
+<section class="py-16 px-6 bg-surface-light dark:bg-surface-dark">
+<h2 class="text-3xl font-bold text-center mb-4 text-text-primary-light dark:text-text-primary-dark">What You'll Discover on iHUB</h2>
+<p class="text-center text-text-secondary-light dark:text-text-secondary-dark mb-12 max-w-2xl mx-auto">Everything you need to stay connected, informed, and engaged with your local community</p>
+<div class="space-y-6">
+<div class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+<img alt="Diverse group of people connecting" class="w-full h-48 object-cover rounded-lg mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3--5k1Ol50w44c58IGTonif3tMD8p-hm7OAdVDwr_TAUMD26hFKJJqaqlK57SIA6bdYLGIVK2X_XV4pZXkxDiRkbhpKqlkNQ--mtjHKkNVxKfKYcl5Ib6C7jT4eXjedHRLW3-nLBCU8DmwZLzsrgGF9nL2UfuSUojXRx9-KzgZAxrUafLci43E74hlSAf88fE9SzcITRoo2jw0B9VBzdDi9O_ztdENhHKycckUoMIiAxd8sXFX-MPFLpPAJubF3um-Up1xHC5K5qt"/>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-primary text-4xl">groups</span>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-2 text-text-primary-light dark:text-text-primary-dark">Community Groups</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark">Join or create groups based on your hobbies, location, or interests. Connect with like-minded individuals and foster local relationships.</p>
+</div>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+<img alt="Local event calendar" class="w-full h-48 object-cover rounded-lg mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVleBYDwd-4laFdOQMevE7ExgupvVPSjslN_mpRGrbelRVodO1dUwigFj0_ekAht8jeZfSscZ7osCZmrd6Fhtc95nlxuqERRExnCmAC38u_7o93dtSwBzg8xvLE12MBMVrTqjbWouyihcXbThK_o88yziVO3dRwyOaG_pHWm7Lq88UHOFZ48HbuFjgE91mqBA3T7lYIi_K8ProqzlYlqcw2I8bU4wab038fPbAGktqswxGVTQFfm_y2nq6TWVtjjCMN52CAC7M947I"/>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-primary text-4xl">event</span>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-2 text-text-primary-light dark:text-text-primary-dark">Local Events</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark">Never miss out on what's happening nearby. Discover festivals, workshops, concerts, and community gatherings tailored to your interests.</p>
+</div>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+<img alt="Local business deals" class="w-full h-48 object-cover rounded-lg mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHa53iCdzNp4-dWJjWjrQRMXInIWdx7tlYLb2Yq_dhGHeVENIexkEDGL7aRoAtqdloCyG3OH3prMO61pBRSTuzBM0q-IQcn0SqdLdTuEun5gL2-K0uy53E60WPIdNy-jnFiKdl_ULcH_FlnMS4An7jMRvVpeZ8uBfc-U96ed1VfSosnkwmfeFgZcG4oYef08_u6AUaZMfPpGUj5i81yFBoh5oqVKKozVLFj7k0byXUNo6fLr21nqhRWrT35FOfNVZvt0AQGIE_0Uwi"/>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-primary text-4xl">local_offer</span>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-2 text-text-primary-light dark:text-text-primary-dark">Exclusive Local Deals</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark">Support local businesses while saving money. Access special offers, discounts, and loyalty rewards from your favorite neighborhood spots.</p>
+</div>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+<img alt="Community discussion" class="w-full h-48 object-cover rounded-lg mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-ALS41iarrwTHkdH39pAw0Vgoi2hmPCjDyh63d10ehhQNqtal2M3uduXCiutOKG5OWTNsMrnca7SJiRqK4qwh-ppdvm6JOkLvQxMJKG0YC90_NA6hntym_GEbk0jlV8nT3d_PJUycSez3AejPRkJc_zXf00kn0FCrOlAkcASmMJEM-jVptd7sjXJC1fwLZw1CZ6uiotc8e9LBePhbLjQsDAvKdD0h4Zn2bdATBf1Ni4yf_NZZFeH-V536fSF7JfcZHpT1Bb95xKa-"/>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-primary text-4xl">forum</span>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-2 text-text-primary-light dark:text-text-primary-dark">Real-Time Community Feed</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark">Stay in the loop with neighborhood updates, safety alerts, recommendations, and local news shared by your community members.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-16 px-6">
+<h2 class="text-2xl font-bold text-center mb-8">What Our Community Says</h2>
+<div class="space-y-6">
+<div class="bg-background-light dark:bg-surface-dark p-6 rounded-lg border border-border-light dark:border-border-dark shadow-sm">
+<div class="flex items-center mb-4">
+<img alt="Emily R." class="w-12 h-12 rounded-full object-cover mr-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQrophj7dQktWqL3qZnC0uywqvXmhEf83sPpEcLlgLIL96QZRaJ5gBXNQNu4OXQoZ2XpV4MSZIljugYw4UTY5va_K5FcD_oVjmKAbmP-tpDwlu9MuANA_YzsNKNyo06k3hJoVfeuOIBQrn8QXocZUwDtV66EAXB28k9OWHXbNNF2a0o01uvpqlVeCPKP9nfygxK3LdKU5TXi1w-QcmW_5NwwtJqMYAj_XPGbox8ZvBkE77Ti5IZXxwfJjn_KG9ThKobYYPNNbteEfS"/>
+<p class="font-semibold text-lg">Emily R.</p>
+</div>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mb-4">iHUB24 has completely changed how I connect with my neighborhood. Finding local events and groups has never been easier. Highly recommend!</p>
+<div class="flex items-center star-rating">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-surface-dark p-6 rounded-lg border border-border-light dark:border-border-dark shadow-sm">
+<div class="flex items-center mb-4">
+<img alt="David L." class="w-12 h-12 rounded-full object-cover mr-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAM4byevb5jQQM9NE9TueKC_V-sBeiPfWpHu5w8ErDjlvz01vl2jDbnp4g-f5Ft9SnlRr7PmI8Mht5QHh_4-_Wku12fUVMzltnACLhUdc68y_0F3GN1YEHW0gDh8Cb-byvl31AfRZcO2VAcDmy1azKGMZ0-py1lnm-xi9hs4TUiEffWUJ4KkN7rnkooc544OCspThDBy4g-b-XS4_iizPj5ARLZPPo4QD6mXG2XnpYZ62zntNsok2DnvtL6oWsK9xQTOfI_8kKcRpxU"/>
+<p class="font-semibold text-lg">David L.</p>
+</div>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mb-4">The local perks are fantastic! I've discovered so many great businesses in my area and saved a lot of money. It's a win-win for everyone.</p>
+<div class="flex items-center star-rating">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined empty">star</span>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-surface-dark p-6 rounded-lg border border-border-light dark:border-border-dark shadow-sm">
+<div class="flex items-center mb-4">
+<img alt="Sophia M." class="w-12 h-12 rounded-full object-cover mr-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDslf2Ylyhz_BmbCvmdzlEKys7EpNp6bEUK2jFIct-nYR24jhDb8iwQxzKTUkPnxegEMzQ-IE2MqhBh-oMSnsHiktLNiu5nbXsH2Fr_LvXy7csYl3sXDbITgDq4ryNySTnE9NQGyiadbSn1zTpm4OWslQVxzB7gID5BaDhpoXENT_Y8UGVne-KuZHHYh4bjDNEeIiu6p9zgw8EY_JTveu5CDZ0fi7mCtLZAfUhEGEWFSZL80tz19ZgWl-ao0_PctozBbSAfIrE0sDDT"/>
+<p class="font-semibold text-lg">Sophia M.</p>
+</div>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mb-4">I love the community groups feature. I found a book club right in my town and made new friends. iHUB24 truly fosters local connections.</p>
+<div class="flex items-center star-rating">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="bg-primary text-white text-center py-16 px-6">
+<h2 class="text-3xl font-bold mb-4">Unlock Your Local World. Download the iHUB24 App Today!</h2>
+<p class="mb-8">Get instant access to local events, exclusive deals, and connect with your community on the go. Available for iOS and Android.</p>
+<a class="bg-white text-primary font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition-colors" href="#">Download Now</a>
+</section>
+
+<section class="p-6">
+<div class="bg-primary text-white text-center py-12 px-6 rounded-lg">
+<h2 class="text-2xl font-bold mb-4">Limited-Time Offer: Join & Get 3 Months Free!</h2>
+<p class="mb-8">Experience all iHUB has to offer with our special welcome bonus. Connect, discover, and thrive in your local community today!</p>
+<a class="bg-white text-primary font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition-colors" href="#">Claim Your Offer Now</a>
+</div>
+</section>
+
+<section class="py-16 px-6">
+<h2 class="text-2xl font-bold text-center mb-8">Latest News & Updates</h2>
+<div class="space-y-8">
+<div class="bg-background-light dark:bg-surface-dark rounded-lg shadow-md overflow-hidden border border-border-light dark:border-border-dark">
+<img alt="Crowd at a spring festival" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVleBYDwd-4laFdOQMevE7ExgupvVPSjslN_mpRGrbelRVodO1dUwigFj0_ekAht8jeZfSscZ7osCZmrd6Fhtc95nlxuqERRExnCmAC38u_7o93dtSwBzg8xvLE12MBMVrTqjbWouyihcXbThK_o88yziVO3dRwyOaG_pHWm7Lq88UHOFZ48HbuFjgE91mqBA3T7lYIi_K8ProqzlYlqcw2I8bU4wab038fPbAGktqswxGVTQFfm_y2nq6TWVtjjCMN52CAC7M947I"/>
+<div class="p-6">
+<span class="inline-block bg-gray-200 dark:bg-zinc-700 text-text-secondary-light dark:text-text-secondary-dark text-xs font-medium px-2 py-1 rounded-full mb-3">Community Event</span>
+<h3 class="text-xl font-semibold mb-2">Spring Festival Returns to Downtown!</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">March 15, 2024</p>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-surface-dark rounded-lg shadow-md overflow-hidden border border-border-light dark:border-border-dark">
+<img alt="Smartphone showing an app interface" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-ALS41iarrwTHkdH39pAw0Vgoi2hmPCjDyh63d10ehhQNqtal2M3uduXCiutOKG5OWTNsMrnca7SJiRqK4qwh-ppdvm6JOkLvQxMJKG0YC90_NA6hntym_GEbk0jlV8nT3d_PJUycSez3AejPRkJc_zXf00kn0FCrOlAkcASmMJEM-jVptd7sjXJC1fwLZw1CZ6uiotc8e9LBePhbLjQsDAvKdD0h4Zn2bdATBf1Ni4yf_NZZFeH-V536fSF7JfcZHpT1Bb95xKa-"/>
+<div class="p-6">
+<span class="inline-block bg-gray-200 dark:bg-zinc-700 text-text-secondary-light dark:text-text-secondary-dark text-xs font-medium px-2 py-1 rounded-full mb-3">App Update</span>
+<h3 class="text-xl font-semibold mb-2">iHUB24 Introduces New Loyalty Program for Local Businesses</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">March 10, 2024</p>
+</div>
+</div>
+
+<div class="bg-background-light dark:bg-surface-dark rounded-lg shadow-md overflow-hidden border border-border-light dark:border-border-dark">
+<img alt="Woman volunteering with a dog at an animal shelter" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKgSCy0uuglqfk4EQoAevEQwbN-7fjchLMsUe4Rt9fzUfDmVNws9dG02m7zRX6_KR9NPfwnuNkDfli3RTI6Cywrjf0GzbjHnyntF6l70wwyCOICBofRVcDqJ5AC_ZLlyr4fB6w4Dg_9U1hmcYH2ZXRsZeOz4Is-NPF1Cj2fpx9HWVC50beVuuu59yiBA6XRgQPI-rXihgOD11VxmGO-et2d7k0DxKyj-DKTBTPXmliJ5ZlEWViDBkVylanXTp29bcYoczYpSMR4zN5"/>
+<div class="p-6">
+<span class="inline-block bg-gray-200 dark:bg-zinc-700 text-text-secondary-light dark:text-text-secondary-dark text-xs font-medium px-2 py-1 rounded-full mb-3">Local Initiative</span>
+<h3 class="text-xl font-semibold mb-2">Volunteer with Local Animal Shelter via iHUB24</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">March 05, 2024</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-16 px-6 text-center">
+<h2 class="text-2xl font-bold mb-4">Our Valued Local Partners</h2>
+<div class="mb-8">
+<span class="inline-block bg-primary text-white text-sm font-semibold px-4 py-2 rounded-full">Featured Eateries</span>
+</div>
+<div class="grid grid-cols-3 gap-4">
+<div class="bg-background-light dark:bg-surface-dark p-4 rounded-lg flex items-center justify-center border border-border-light dark:border-border-dark">
+<img alt="Partner logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAV3jIW5tLsbfvgl4dl0M8szDSQUhho3vTmbTML3jDM2Pk4mMvFtkfTEpFw6ps_A7ShdlSM02xmcYYsyiCTG9If3mpcaF2oY7P0dCEeYAW8Vglbfq4lrvhoEhz3LrtAStyEH70D3aIlqIeg_7sMnYyYP0hEJ3TSLJyRQHU-KgZMvHY_NtzDx5eJWJ8q4h22YfpaHbbUpUNN0bq-pRP3kKw5xUYz4LTdwn6Mqz75DcjPnHVMRVsO63kSYwklRRB0mHcC0mYghqVMnFEK"/>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-4 rounded-lg flex items-center justify-center border border-border-light dark:border-border-dark">
+<img alt="Partner logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHa53iCdzNp4-dWJjWjrQRMXInIWdx7tlYLb2Yq_dhGHeVENIexkEDGL7aRoAtqdloCyG3OH3prMO61pBRSTuzBM0q-IQcn0SqdLdTuEun5gL2-K0uy53E60WPIdNy-jnFiKdl_ULcH_FlnMS4An7jMRvVpeZ8uBfc-U96ed1VfSosnkwmfeFgZcG4oYef08_u6AUaZMfPpGUj5i81yFBoh5oqVKKozVLFj7k0byXUNo6fLr21nqhRWrT35FOfNVZvt0AQGIE_0Uwi"/>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-4 rounded-lg flex items-center justify-center border border-border-light dark:border-border-dark">
+<img alt="Partner logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqzePYty32VLYAlHTOJYue10ZmtkNeJGTNHZ7ht8_WyZNKPwdqRszfcbyJfOyANP2kOS4UCUSUztgytRAKgJ7t66xVObGSyWYAB_3lEt_XFWypg_G6N5DlZU8_1GYxvRBxxY9Tuw3iBg6Z03hfZpVj0TZUWD8xINQ8-A0rsk6XSO8EoC4GGcR2zEKKhn830Dm_OugV0JjILRWGFAEHhHUHRlXPBoCqfJkj6YeCa17PQ-uAPZGKVkAwL131NYtGJCDfq56nhUYbFCIw"/>
+</div>
+</div>
+</section>
+
+<section class="py-16 px-6 text-center">
+<h2 class="text-3xl font-bold leading-tight mb-4">Be a Part of Something Bigger. Join the iHUB24 Community!</h2>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mb-8">Connect, share, and grow with thousands of local residents. Your neighborhood is waiting for you.</p>
+<a class="text-primary font-semibold" href="#">Join the Community</a>
+</section>
+</main>
+
+<footer class="bg-surface-light dark:bg-surface-dark">
+<div class="py-12 px-6 text-center">
+<h3 class="text-xl font-bold mb-2">Connect with iHUB24</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mb-6">Follow us on social media for the latest updates, community highlights, and exclusive content.</p>
+<div class="flex justify-center gap-6 text-text-secondary-light dark:text-text-secondary-dark text-2xl">
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path>
+</svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M22.46 6c-.77.35-1.6.58-2.46.67.88-.53 1.56-1.37 1.88-2.38-.83.49-1.74.85-2.7 1.03-.78-.84-1.9-1.36-3.12-1.36-2.36 0-4.28 1.92-4.28 4.28 0 .34.04.67.11.98-3.56-.18-6.72-1.88-8.84-4.48-.37.63-.58 1.37-.58 2.15 0 1.48.75 2.79 1.9 3.55-.7-.02-1.36-.21-1.93-.53v.05c0 2.07 1.47 3.8 3.42 4.19-.36.1-.74.15-1.13.15-.27 0-.54-.03-.8-.08.54 1.7 2.1 2.94 3.96 2.97-1.46 1.14-3.3 1.83-5.3 1.83-.34 0-.68-.02-1.02-.06 1.88 1.21 4.12 1.92 6.56 1.92 7.88 0 12.2-6.54 12.2-12.2 0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.22z"></path>
+</svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.802c-3.116 0-3.483.011-4.706.067-2.628.12-3.843 1.33-3.963 3.963-.056 1.223-.067 1.59-.067 4.706s.011 3.483.067 4.706c.12 2.633 1.335 3.843 3.963 3.963 1.223.056 1.59.067 4.706.067s3.483-.011 4.706-.067c2.628-.12 3.843-1.33 3.963-3.963.056-1.223.067-1.59.067-4.706s-.011-3.483-.067-4.706c-.12-2.633-1.335-3.843-3.963-3.963C15.483 3.975 15.116 3.965 12 3.965zm0 2.88c-2.405 0-4.364 1.959-4.364 4.364s1.959 4.364 4.364 4.364 4.364-1.959 4.364-4.364S14.405 6.845 12 6.845zm0 7.08c-1.498 0-2.714-1.216-2.714-2.714s1.216-2.714 2.714-2.714 2.714 1.216 2.714 2.714-1.216 2.714-2.714 2.714zM16.965 6.57c-.606 0-1.096.49-1.096 1.096s.49 1.096 1.096 1.096c.606 0 1.096-.49 1.096-1.096s-.49-1.096-1.096-1.096z"></path>
+</svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-12 15H5v-9h2v9zm-1-9.75c-.69 0-1.25-.56-1.25-1.25S5.31 5.75 6 5.75s1.25.56 1.25 1.25S6.69 8.25 6 8.25zM19 18h-2v-4.5c0-1.24-.65-2-1.5-2-.85 0-1.5.76-1.5 2V18h-2v-9h2v1.25C14.81 9.61 15.86 9 17 9c2.21 0 3 1.48 3 3.49V18z"></path>
+</svg>
+</a>
+</div>
+</div>
+<div class="border-t border-border-light dark:border-border-dark py-4 px-6 text-center">
+<p class="text-xs text-text-secondary-light dark:text-text-secondary-dark">© 2025 iHUB24. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</body>
+</html>
