@@ -18,6 +18,31 @@
   .dark .star-rating .empty {
     color: #475569;
   }
+  .video-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    object-fit: cover;
+  }
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 </style>
 <script>
   tailwind.config = {
@@ -71,11 +96,29 @@
 </header>
 
 <main>
-<section class="relative text-white text-center py-20 px-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://storage.googleapis.com/pai-images/f773663ab6c5436696d7494443652c78.jpeg');">
-<h1 class="text-4xl font-bold leading-tight mb-4">iHUB: Your Local World, Seamlessly Connected.</h1>
-<p class="mb-8 text-white/90">Experience the power of a vibrant local community right at your fingertips. Discover exciting events, exclusive deals, and connect with people who share your interests, all through one unified platform.</p>
-<a class="bg-primary text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-teal-600 transition-colors" href="#">Start Connecting Now</a>
+<section class="relative text-white text-center py-20 px-6 overflow-hidden">
+  <div class="absolute inset-0 overflow-hidden">
+    <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+      <source src="https://res.cloudinary.com/ddtpurhae/video/upload/v1762756774/background_jifabz.mp4" type="video/mp4" />
+    </video>
+    <div class="absolute inset-0 bg-black/50"></div>
+  </div>
+  <div class="relative z-10 max-w-3xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">    </h1>
+    <p class="mb-8 text-white/90 text-lg">
+      Experience the power of a vibrant local community right at your fingertips. Discover exciting events, exclusive deals, and connect with people who share your interests — all through one unified platform.
+    </p>
+    <a
+      href="#"
+      class="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors"
+    >
+    
+
+      Start Connecting Now
+    </a>
+  </div>
 </section>
+
 
 <section class="py-16 px-6 bg-surface-light dark:bg-surface-dark">
 <h2 class="text-3xl font-bold text-center mb-4 text-text-primary-light dark:text-text-primary-dark">What You'll Discover on iHUB</h2>
